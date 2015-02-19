@@ -19,6 +19,7 @@ public class Pintar implements Renderer{
         float b = aleatorio.nextFloat();
         gl.glClearColor(r,g,b,1.0f);
        // gl.glClearColor(0.0f,1.0f,0.0f,0.5f);
+        //FRANS NARANJO
         gl.glShadeModel(GL10.GL_SMOOTH);
         gl.glClearDepthf(1.0f);
         gl.glEnable(GL10.GL_DEPTH_TEST);
